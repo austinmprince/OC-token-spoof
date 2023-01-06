@@ -1,4 +1,5 @@
 # Ignore all files containing keys 
 .env.local
 *.pem
+test_token.txt
 /pub_key/__pycache__/
