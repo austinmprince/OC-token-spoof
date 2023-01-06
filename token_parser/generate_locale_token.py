@@ -3,6 +3,9 @@ from jose import JWTError, jwt
 from decouple import Config, RepositoryEnv
 from datetime import datetime, timedelta
 import pem
+import os
+
+os.chdir('..')
 
 DOTENVFILE = '.env.local'
 env_config = Config(RepositoryEnv(DOTENVFILE))
