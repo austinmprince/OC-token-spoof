@@ -6,7 +6,6 @@ app = FastAPI()
 os.chdir('..')
 public_key = open('public_key.pem', 'r').read()
 
-
 @app.get("/")
 async def root():
     return {"Hello": "World"}
