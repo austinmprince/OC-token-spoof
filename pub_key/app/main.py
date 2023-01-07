@@ -3,7 +3,7 @@ import os
 
 app = FastAPI()
 
-os.chdir('..')
+os.chdir('../..')
 public_key = open('public_key.pem', 'r').read()
 
 @app.get("/")
