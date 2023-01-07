@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import pem
 import os
 
-os.chdir('..')
+os.chdir('../../pub_key')
 
 DOTENVFILE = '.env.local'
 env_config = Config(RepositoryEnv(DOTENVFILE))

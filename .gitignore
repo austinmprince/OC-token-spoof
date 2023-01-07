@@ -4,4 +4,5 @@
 test_token.txt
 /pub_key/pub_key_env
 /pub_key/__pycache__/
+/pub_key/app/__pycache__/
 
